@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="he">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="assets/jquery/jquery-3.4.1.min.js"></script>
+        <script src="manofim.js"></script>
+        <title>סימנים מוסכמים</title>
+    </head>
+    <body>
+        <div class="header">
+            <h2>סימנים מוסכמים</h2>
+            <img class="content-about-btn" src="assets/images/about.svg" />
+        </div>
+        <div class="navbar">
+            <div class="part1 curr">הוראות</div>
+            <div class="part2">סרטון</div>
+        </div>
+        <div class="content-container">
+            <div class="part1-content content">
+                <h1>מנופים</h1>
+                <div class="page1">
+                    <div class="big-square">
+                        <b>מהם סימנים מוסכמים?</b> <br>
+                        <div>
+                             שפה בינלאומית בין מפעילי מנופים, 
+                            שתפקידם להוות תיווך בין מפעיל המנוף למכוון.
+                        </div>
+                    </div>
+                    <img src="assets/images/start-guy.svg" />
+                    <div class="small-square">
+                        <div>
+                            <b>מי רשאי להשתמש בהם?</b> <br>
+                            בעל תעודה שלמד את הסימנים המוסכמים והוסמך לכך.
+                        </div>
+                        <div class="question-mark">?</div>
+                    </div>
+                    <img class="marker" src="assets/images/2-screen-1.svg" />
+                    <img class="next" src="assets/images/next.svg" />
+                </div>
+                <div class="page2 inactive">
+                    <img class="prev" src="assets/images/previous.svg" />
+                    <div class="big-square">
+                        <div>
+                                בצה’’ל נשתמש בסימני ידיים
+                                משום שיש אפשרות לרעש בסביבת ההפעלה,
+                                שיכול לגרום לקצר בין המפעיל לאתת
+                                ולטעויות הגורמות סכנה לחיים ולציוד.
+                        </div>
+                    </div>
+                    <img class="marker" src="assets/images/2-screen-2.svg" />
+                    <img src="assets/images/guy-explain.svg" />
+                    <button class="start">בואו נתחיל!</button>
+                </div>
+            </div>
+            <div class="part2-content content inactive">
+                    <h1 class="title">מנופים</h1>
+                    <video class="video day" width="80%" height="100%" controls> <source src="assets/videos/manofim.mp4" type="video/mp4"></video>
+                    <img class="go-to-exer" src="assets/images/next.svg" />
+                    <img class="part-prev" src="assets/images/previous.svg" />
+            </div>
+        </div>
+        <div class="exer-container">
+            <div class="part1-exer content">
+                <h3>סימנים ביום</h3>
+                <div class="page1-exer">
+                    <div>עליך להתאים בין הפקודה שתופיע על המסך לבין הסימון המתאים לה באמצעות לחיצה.<br> לפני שתתחיל, תוכל ללחוץ על כל סימון כדי לראות אותו כGIF</div>
+                    <img class="drop-cable" id="sign1" src="assets/images/text-drop-cable.svg" />
+                    <img class="lift-cable" id="sign2" src="assets/images/text-lift-cable.svg" />
+                    <img class="lift-arm" id="sign3" src="assets/images/text-lift-arm.svg" />
+                    <img class="drop-arm" id="sign4" src="assets/images/text-drop-arm.svg" />
+                    <img class="crane-stop" id="sign5" src="assets/images/text-crane-stop.svg" />
+                    <img class="freeze" id="sign6" src="assets/images/text-freeze.svg" />
+                    <img class="telescopic-in" id="sign7" src="assets/images/text-telescopic-in.svg" />
+                    <img class="telescopic-out" id="sign8" src="assets/images/text-telescopic-out.svg" />
+                    <img class="manof-sides" id="sign9" src="assets/images/text-manof-sides.svg" />
+                    <img class="next" src="assets/images/next.svg" />
+                </div>
+                <div class="page2-exer inactive">
+                    <div class="small-square">
+                        <div class="speech speech1">
+                            תרים את הזרוע הראשית
+                        </div>
+                        <div class="feedback">   
+                        </div>
+                    </div>
+                    <div class="small-square">
+                        <div>
+                            <img class="answer8 answer12 answer25" src="assets/images/lift-cable.svg" />
+                            <img class="answer9 answer16 answer27" src="assets/images/drop-arm.svg" />
+                            <img class="answer5 answer18 answer24" src="assets/images/move-left.svg" />
+                        </div>
+                        <div>
+                            <img class="answer7 answer19 answer26" src="assets/images/telescopic-in.svg" />
+                            <img class="answer1 answer15 answer21" src="assets/images/lift-arm.svg" />
+                            <img class="answer4 answer14 answer22" src="assets/images/telescopic-out.svg" />
+                            <img class="answer10 answer13 answer28" src="assets/images/move-right.svg" />
+                        </div>
+                        <div>
+                            <img class="answer2 answer20 answer29" src="assets/images/crane-stop.svg" />
+                            <img class="answer6 answer17 answer30" src="assets/images/freeze.svg" />
+                            <img class="answer3 answer11 answer23" src="assets/images/drop-cable.svg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="filler">
+            <div class="big-square">
+                <h1>כל הכבוד! סיימת את הלומדה!</h1>
+                <button class="filler-btn">מההתחלה</button>
+            </div>
+        </div>
+        <div class="about"> 
+            <img class="about-x" src="assets/images/white-x.svg" />
+            <div class="about-content">
+                <h1>אודות</h1>
+               <p><b>ראש מדור טי"ל: </b>רס"ן מיגל לויתן <br></p>
+                <p><b>רת"ח פרויקטים: </b>רס"ר שלומי אוגרן <br></p>
+                <p><b>רת"ח מו"פ וחדשנות בלמידה: </b>סמ"ר גל גנסין <br></p>
+                <p><b>פיתוח: </b>סמל דרור אברמסון <br></p>
+                <p><b>עיצוב: </b>סמל עומרי דהאן <br></p>
+                <p><b>מומחה תוכן: </b>רס"מ מני נחמד <br></p>
+                <p><b>גרסה: </b>אוגוסט 2021<br></p>
+                <div class="about-logos">
+                    <img src="assets/images/bhd20.png" />
+                    <img src="assets/images/mador.png" />
+                </div>>
+            </div>
+        </div>
+    </body>
+</html>

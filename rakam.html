@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="he">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="assets/jquery/jquery-3.4.1.min.js"></script>
+        <script src="rakam.js"></script>
+        <title>סימנים מוסכמים</title>
+    </head>
+    <body>
+        <div class="header">
+            <h2>סימנים מוסכמים</h2>
+            <img class="content-about-btn" src="assets/images/about.svg" />
+        </div>
+        <div class="navbar">
+            <div class="part1 curr">הוראות</div>
+            <div class="part2">סימנים ביום</div>
+            <div class="part3">סימנים בלילה</div>
+            <div class="part4">שילוט</div>
+        </div>
+        <div class="content-container">
+            <div class="part1-content content">
+                <h1>רק"מ</h1>
+                <div class="page1">
+                    <div class="big-square">
+                        <b>מהם סימנים מוסכמים?</b> <br>
+                        <div>
+                             שפה בינלאומית בין מפעילי רק’’מ, 
+                            שתפקידם להוות תיווך בין מפעיל הרק’’מ למכוון.
+                        </div>
+                    </div>
+                    <img src="assets/images/start-guy.svg" />
+                    <div class="small-square">
+                        <div>
+                            <b>מי רשאי להשתמש בהם?</b> <br>
+                            בעל תעודה שלמד את הסימנים המוסכמים והוסמך לכך.
+                        </div>
+                        <div class="question-mark">?</div>
+                    </div>
+                    <img class="marker" src="assets/images/2-screen-1.svg" />
+                    <img class="next" src="assets/images/next.svg" />
+                </div>
+                <div class="page2 inactive">
+                    <img class="prev" src="assets/images/previous.svg" />
+                    <div class="big-square">
+                        <div>
+                                בצה’’ל נשתמש בסימני ידיים
+                                משום שיש אפשרות לרעש בסביבת ההפעלה,
+                                שיכול לגרום לקצר בין המפעיל לאתת
+                                ולטעויות הגורמות סכנה לחיים ולציוד.
+                        </div>
+                    </div>
+                    <img class="marker" src="assets/images/2-screen-2.svg" />
+                    <img src="assets/images/guy-explain.svg" />
+                    <button class="start">בואו נתחיל!</button>
+                </div>
+            </div>
+            <div class="part2-content content inactive">
+                    <img class="title" src="assets/images/title1.svg" />
+                    <video class="video day" width="80%" height="100%" controls> <source src="assets/videos/day.mp4" type="video/mp4"></video>
+                    <img class="next" src="assets/images/next.svg" />
+                    <img class="part-prev" src="assets/images/previous.svg" />
+            </div>
+            <div class="part3-content content inactive">
+                    <img class="title" src="assets/images/title2.svg" />
+                    <video class="video night" width="80%" height="100%" controls> <source src="assets/videos/night.mp4" type="video/mp4"></video>
+                    <img class="next" src="assets/images/next.svg" />
+                    <img class="part-prev" src="assets/images/previous.svg" />
+            </div>
+            <div class="part4-content content inactive">
+                <h1>שילוט</h1>
+                <div class="page1">
+                    <div class="big-square">
+                        <b>יום</b> <br>
+                        <div>
+                             במהלך שעות היום יש לנוע משמאל לשלטים.
+                        </div>
+                        <img src="assets/images/red-triangle.svg" />
+                    </div>  
+                    <img class="next" src="assets/images/next.svg" />
+                    <img class="part-prev" src="assets/images/previous.svg" />
+                    <img class="marker2" src="assets/images/3-screen-1.svg" />
+                </div>
+                <div class="page2 inactive">
+                    <img class="prev" src="assets/images/previous.svg" />
+                    <div class="big-square">
+                        <div>
+                            המסלול ישולט בלילה באמצעות פנס או סטיקלייט, בשלושה צבעים שונים.
+                        </div>
+                        <img src="assets/images/light1.svg" />
+                        <img src="assets/images/red.svg" />
+                        <img src="assets/images/green.svg" />
+                    </div>
+                    <img class="marker2" src="assets/images/3-screen-2.svg" />
+                    <img class="next" src="assets/images/next.svg" />
+                </div>
+                <div class = "page3 inactive">
+                    <img class="prev" src="assets/images/previous.svg" />
+                    <div id="road" class="big-square">
+                        <img class="road" src="assets/GIFS/road1.gif" />
+                    </div>
+                    <div class="pop-up big-square inactive">
+                        <h2 class="pop-title">אור כחול אחד בודד</h2>
+                        <p class="pop-text">האור הכחול מסמל כיוון תנועה. על הנהג לנסוע משמאל לאור הכחול ולהתקדם לכיוון האור הכחול הבא במסלול.</p>
+                        <img  class="pop-img" src="assets/images/light1.svg" />
+                        <button class="got-it">הבנתי!</button>
+                    </div>
+                    <img class="go-to-exer inactive" src="assets/images/next.svg" />
+                    <img class="marker2" src="assets/images/3-screen-3.svg" />
+                </div>
+            </div>
+        </div>
+        <div class="exer-container">
+            <div class="part1-exer content">
+                <h3>סימנים ביום</h3>
+                <div class="page1-exer">
+                    <div>עליך להתאים בין הפקודה שתופיע על המסך לבין הסימון המתאים לה באמצעות לחיצה.<br> לפני שתתחיל, תוכל ללחוץ על כל סימון כדי לראות אותו כGIF</div>
+                    <img class="speed" id="sign1" src="assets/images/text-speed.svg" />
+                    <img class="stop" id="sign2" src="assets/images/text-stop.svg" />
+                    <img class="forward" id="sign3" src="assets/images/text-forward.svg" />
+                    <img class="silence" id="sign4" src="assets/images/text-silence.svg" />
+                    <img class="engine" id="sign5" src="assets/images/text-engine.svg" />
+                    <img class="slow" id="sign6" src="assets/images/text-slow.svg" />
+                    <img class="pibot" id="sign7" src="assets/images/text-pibot.svg" />
+                    <img class="break" id="sign8" src="assets/images/text-break.svg" />
+                    <img class="neutral" id="sign9" src="assets/images/text-neutral.svg" />
+                    <img class="backward" id="sign10" src="assets/images/text-backward.svg" />
+                    <img class="sides" id="sign11" src="assets/images/text-sides.svg" />
+                    <img class="next" src="assets/images/next.svg" />
+                </div>
+                <div class="page2-exer inactive">
+                    <div class="small-square">
+                        <div class="speech speech1">
+                            יאללה תתניע את המנוע
+                        </div>
+                        <div class="feedback">
+                            
+                        </div>
+                    </div>
+                    <div class="small-square scroll">
+                        <div>
+                            <img class="answer10 answer16 answer35" src="assets/images/speed.svg" />
+                            <img class="answer4 answer23 answer29" src="assets/images/left.svg" />
+                            <img class="answer5 answer18 answer32 answer7" src="assets/images/stop.svg" />
+                        </div>
+                        <div>
+                            <img class="answer2 answer15 answer31" src="assets/images/forward.svg" />
+                            <img class="answer9 answer22 answer34" src="assets/images/silence.svg" />
+                            <img class="answer1 answer14 answer26" src="assets/images/engine.svg" />
+                        </div>
+                        <div>
+                            <img class="answer11 answer17 answer36" src="assets/images/slow.svg" />
+                            <img class="answer12 answer19 answer30" src="assets/images/pibot.svg" />
+                            <img class="answer8 answer21 answer33" src="assets/images/break.svg" />
+                        </div>
+                        <div>
+                            <img class="answer13 answer24 answer28" src="assets/images/neutral.svg" />
+                            <img class="answer6 answer25 answer27" src="assets/images/backward.svg" />
+                            <img class="answer3 answer20 answer37" src="assets/images/right.svg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="part2-exer content inactive">
+                <h2>סימנים בלילה</h2>
+                <div class="page1-exer">
+                    <div>עליך להתאים בין הפקודה שתופיע על המסך לבין הסימון המתאים לה באמצעות לחיצה.<br> לפני שתתחיל, תוכל ללחוץ על כל סימון כדי לראות אותו כGIF</div>
+                        <img class="night-backward" id="sign12" src="assets/images/text-night-backward.svg" />
+                        <img class="night-engine" id="sign13" src="assets/images/text-night-engine.svg" />
+                        <img class="night-forward" id="sign14" src="assets/images/text-night-forward.svg" />
+                        <img class="night-sides" id="sign15" src="assets/images/text-night-sides.svg" />
+                        <img class="night-silence" id="sign16" src="assets/images/text-night-silence.svg" />
+                        <img class="night-stop" id="sign17" src="assets/images/text-night-stop.svg" />
+                        <img class="next" src="assets/images/next.svg" />
+                </div>
+                <div class="page2-exer inactive">
+                    <div class="small-square">
+                        <div class="speech speech1">
+                            יאללה תתניע את המנוע
+                        </div>
+                        <div class="feedback">
+                                    
+                        </div>
+                    </div>
+                    <div class="small-square">
+                        <div>
+                            <img class="answer4 answer11 answer19" src="assets/images/night-backward.svg" />
+                            <img class="answer1 answer9 answer16" src="assets/images/night-engine.svg" />
+                            <img class="answer2 answer10 answer17" src="assets/images/night-forward.svg" />
+                        </div>
+                        <div>
+                            <img class="answer6 answer12 answer20" src="assets/images/night-right.svg" />
+                            <img class="answer8 answer14 answer22" src="assets/images/night-silence.svg" />
+                            <img class="answer3 answer15 answer18" src="assets/images/night-left.svg" />
+                        </div>
+                        <div>
+                            <img class="answer5 answer13 answer21 answer7" src="assets/images/night-stop.svg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="part3-exer content inactive">
+                    <h2>שילוט</h2>
+                    <div class="page1-exer">
+                        <div> חלק מהמסלול לא משולט!<br> לחצו על סימני השאלה כדי לבחור את השילוט המתאים.</div>
+                        <div class="exer3-signs">
+                            <img class="exer3-signs-img" src="assets/images/green-light.svg" />
+                            <img class="exer3-signs-img" src="assets/images/red-light.svg" />
+                            <img class="exer3-signs-img" src="assets/images/blue-light.svg" />
+                            <img class="exer3-signs-img" src="assets/images/redGreen-light.svg" />
+                            <img class="next" src="assets/images/next.svg" />
+                        </div>
+                    </div>
+            <div class="page2-exer inactive">
+                <div class="road">
+                    <img class="answer2 exer-mark" src="assets/images/question-mark.svg" />
+                    <img class="answer3 exer-mark" src="assets/images/question-mark.svg" />
+                    <img class="answer4 exer-mark" src="assets/images/question-mark.svg" />
+                    <img src="assets/images/exer-road.svg" />
+                    <img class="answer1 exer-mark" src="assets/images/question-mark.svg" />
+                    <button class="check">בדיקה</button>
+                </div>
+                <div class="small-square">
+                    <img class="green sign1" src="assets/images/green-light.svg" />
+                    <img class="red sign2" src="assets/images/red-light.svg" />
+                    <img class="blue sign3" src="assets/images/blue-light.svg" />
+                    <img class="redGreen sign4" src="assets/images/redGreen-light.svg" />
+                </div>
+            </div>
+        </div>
+        <div class="filler">
+            <div class="big-square">
+                <h1>כל הכבוד!</h1>
+                <button class="filler-btn">המשך</button>
+            </div>
+        </div>
+        <div class="about"> 
+            <img class="about-x" src="assets/images/white-x.svg" />
+            <div class="about-content">
+                <h1>אודות</h1>
+               <p><b>ראש מדור טי"ל: </b>רס"ן מיגל לויתן <br></p>
+                <p><b>רת"ח פרויקטים: </b>רס"ר שלומי אוגרן <br></p>
+                <p><b>רת"ח מו"פ וחדשנות בלמידה: </b>סמ"ר גל גנסין <br></p>
+                <p><b>פיתוח: </b>סמל דרור אברמסון <br></p>
+                <p><b>עיצוב: </b>סמל עומרי דהאן <br></p>
+                <p><b>מומחה תוכן: </b>רס"מ מני נחמד <br></p>
+                <p><b>גרסה: </b>אוגוסט 2021<br></p>
+                <div class="about-logos">
+                    <img src="assets/images/bhd20.png" />
+                    <img src="assets/images/mador.png" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
