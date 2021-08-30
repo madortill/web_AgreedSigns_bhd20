@@ -36,6 +36,8 @@ body {
     font-family: Rubik;
     overflow: hidden;
     margin: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 .opening {
