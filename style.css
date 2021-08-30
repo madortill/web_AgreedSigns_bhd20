@@ -1,24 +1,24 @@
 @font-face {
     font-family: Rubik;
-    src: url("../assets/fonts/Rubik-Bold.ttf");
+    src: url("assets/fonts/Rubik-Bold.ttf");
     font-weight: bold;
 }
 
 @font-face {
     font-family: Rubik;
-    src: url("../assets/fonts/Rubik-Medium.ttf");
+    src: url("assets/fonts/Rubik-Medium.ttf");
     font-weight: 500;
 }
 
 @font-face {
     font-family: Rubik;
-    src: url("../assets/fonts/Rubik-Regular.ttf");
+    src: url("assets/fonts/Rubik-Regular.ttf");
     font-weight: 300;
 }
 
 @font-face {
     font-family: Rubik;
-    src: url("../assets/fonts/Rubik-Light.ttf");
+    src: url("assets/fonts/Rubik-Light.ttf");
     font-weight: 100;
 }
 
