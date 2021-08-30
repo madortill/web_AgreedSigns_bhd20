@@ -221,7 +221,7 @@ function onClickAnswer(event) {
         } else {
             document.querySelector(".filler .big-square h1").innerHTML = "כל הכבוד! סיימתם את הלומדה!";
             document.querySelector(".filler-btn").addEventListener("click", function(){
-                window.location.href = "http://127.0.0.1:5500/index.html";
+                window.location.href = "https://madortill.github.io/web_AgreedSigns_bhd20/";
             });
         }
         setTimeout(function() {
