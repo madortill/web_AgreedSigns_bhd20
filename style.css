@@ -507,10 +507,10 @@ body {
     transform: translateX(3%);
 }
 
-.part2-exer>.page2-exer>.small-square:last-of-type {
+/* .part2-exer>.page2-exer>.small-square:last-of-type {
     height: 21%;
 }
-
+ */
 .part3-exer>.page2-exer>.road {
     background-image: url("assets/images/exer-background.svg");
     background-repeat: no-repeat;
