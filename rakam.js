@@ -263,9 +263,11 @@ function animateRoad() {
 //         document.querySelector(".pop-up").classList.remove("inactive");
 //         document.querySelector("#road").classList.add("inactive");
 //     }, 1700);
-       document.querySelector(".road").addEventListener("load", function() {
-        document.querySelector(".pop-up").classList.remove("inactive");
-        document.querySelector("#road").classList.add("inactive");
+       document.ready(function() {
+            document.querySelector(".road").load(function() {
+               document.querySelector(".pop-up").classList.remove("inactive");
+               document.querySelector("#road").classList.add("inactive");
+             });
     });
     document.querySelector(".got-it").addEventListener("click", onPressGotIt);
 }
