@@ -263,7 +263,7 @@ function animateRoad() {
 //         document.querySelector(".pop-up").classList.remove("inactive");
 //         document.querySelector("#road").classList.add("inactive");
 //     }, 1700);
-       document.querySelector("#road").addEventListener("load", function() {
+       document.querySelector(".road").addEventListener("load", function() {
         document.querySelector(".pop-up").classList.remove("inactive");
         document.querySelector("#road").classList.add("inactive");
     });
