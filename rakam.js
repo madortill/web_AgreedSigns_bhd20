@@ -259,10 +259,14 @@ function animateRoad() {
     document.querySelector(".pop-text").innerHTML = popUps[nCurrRoad].text;
     document.querySelector(".pop-img").style.width = popUps[nCurrRoad].width;
     document.querySelector(".pop-img").setAttribute("src", "assets/images/light"+ nLight + ".svg");
-    setTimeout(function() {
-        document.querySelector(".pop-up").classList.remove("inactive");
-        document.querySelector("#road").classList.add("inactive");
-    }, 1700);
+    // setTimeout(function() {
+    //     document.querySelector(".pop-up").classList.remove("inactive");
+    //     document.querySelector("#road").classList.add("inactive");
+    // }, 1700);
+    document.querySelector("#road").addEventListener("load", )(function() {
+            document.querySelector(".pop-up").classList.remove("inactive");
+            document.querySelector("#road").classList.add("inactive");
+        });
     document.querySelector(".got-it").addEventListener("click", onPressGotIt);
 }
 
