@@ -154,7 +154,7 @@ window.onload = () => {
    for(let i=2; i<5; i++) {
        document.querySelector(".part"+i+"-content .part-prev").addEventListener("click", onClickpartPrev);
    }
-   for(let i = 1; i<12; i++) {
+   for(let i = 1; i<15; i++) {
        document.getElementById("sign"+i).addEventListener("click", onClickSign);
    }
    document.querySelector(".prev").addEventListener("click", onClickPrev);
@@ -302,7 +302,11 @@ function goToExer(event) {
 function onClickSign(event) {
    //אם זאת לא הפעם הראשונה שלחצו על תמונה
    if(sCurrSign != "") {
-       document.querySelector("."+sCurrSign).setAttribute("src", "assets/images/text-"+sCurrSign+".svg");
+        if (sCurrSign === 'vertical' || sCurrSign === 'turn' || sCurrSign === 'horizontal') {
+            document.querySelector("."+sCurrSign).setAttribute("src", "assets/images/text-"+sCurrSign+".png");
+        } else {
+            document.querySelector("."+sCurrSign).setAttribute("src", "assets/images/text-"+sCurrSign+".svg");
+        }
    }
    sCurrSign = event.currentTarget.classList[0];
    document.querySelector("."+sCurrSign).setAttribute("src", "assets/GIFS/"+sCurrSign+".gif");
